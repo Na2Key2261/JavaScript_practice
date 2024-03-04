@@ -38,7 +38,7 @@ function stopWatch(options) {
     if (timer !== null) {
       clearInterval(timer);
       timer = null;
-      
+
       addMessage('終了');
     }
   });
